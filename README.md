@@ -1,10 +1,13 @@
 # controlies
-Actualización tanto de controlies-servidor para ejecutarse en una máquina independiente (real o virtual) con Debian Jessie, como de controlies-client para funcionar con equipos clientes con Ubuntu 18 y Ubuntu 22 conjuntamente con el nuevo servidor.
+Paquetes Debian de actualización de controlies-servidor y de controlies-client.
 
-**Aviso**: aunque han sido probados en distintas situaciones no es descartable que todavía tengan fallos o que, dada la casuística de los distintos servidores ldap que tenemos, haya cosas que no están contempladas. Se recomienda antes de instalar el paquete controlies servidor hacer backup de:
+- **controlies servidor**: se ha adaptado para ejecutarse en una máquina independiente (real o virtual) con Debian Jessie, se han limpiado funcionalidades obsoletas, optimizado el código y corregido bugs antiguos.
+- **controlies-client**: adaptados los clientes para funcionar con Ubuntu 18 y Ubuntu 22 con el nuevo controlies servidor.
 
-- La BBDD ldap: script de Esteban Navas para [hacer backup](https://github.com/algodelinux/backup-ldap) y [restaurar](https://github.com/algodelinux/restore-ldap).
-- La BBDD SQLite de controlies: ficheros contenidos en la ruta /var/web2py/applications/controlies/databases del servidor.
+**Aviso**: aunque han sido probados en distintas situaciones no es descartable que todavía tengan fallos o que, dada la casuística de los distintos servidores ldap que tenemos, haya circunstancias que no están contempladas. Por tanto, antes de instalar, se recomienda hacer backup de:
+
+- La BBDD de ldap: usando estos scripts de Esteban Navas para [hacer backup](https://github.com/algodelinux/backup-ldap) y [restaurar](https://github.com/algodelinux/restore-ldap).
+- La BBDD SQLite de controlies: los ficheros contenidos en la ruta /var/web2py/applications/controlies/databases del servidor.
 
 **Paquetes**:
 
@@ -16,7 +19,7 @@ Actualización tanto de controlies-servidor para ejecutarse en una máquina inde
 Manual de instalación y explotación: manual (***en proceso de desarrollo, todavía no está completo***) de instalación y uso de la aplicación controlies tanto para el servidor como para las máquinas clientes.
 - [Manual de controlies](https://docs.google.com/document/d/1RENFd7v7fPgS3N-Zu4oKzo5c-2wSlLZfDexFtMpegrs).
 
-Guia para descomprimir los paquetes y acceder al código fuente: 
+Guia para descomprimir los paquetes y poder examinar el código fuente: 
 - [Como descomprimir y modificar un paquete .deb](http://2tazasdelinux.blogspot.com/2015/06/descomprimir-modificar-y-comprimir-un.html).
 
 Out!
