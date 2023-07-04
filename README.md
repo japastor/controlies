@@ -1,5 +1,5 @@
 # controlies
-Actualización de controlies servidor para ejecutarse en una máquina independiente (real o virtual) con Debian Jessie  y paquetes controlies-client para funcionar tanto con equipos clientes con Ubuntu 18 como con Ubuntu 22 con el nuevo paquete para el servidor.
+Actualización tanto de controlies-servidor para ejecutarse en una máquina independiente (real o virtual) con Debian Jessie, como de controlies-client para funcionar con equipos clientes con Ubuntu 18 y Ubuntu 22 conjuntamente con el nuevo servidor.
 
 **Aviso**: aunque han sido probados dentro de mis posibilidades no es descartable que todavía tengan fallos o que, dada la casuística de los distintos servidores ldap que tenemos, haya cosas que no están contempladas. Se recomienda antes de instalar el paquete controlies servidor hacer backup de:
 
