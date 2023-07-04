@@ -1,7 +1,7 @@
 # controlies
 Actualización tanto de controlies-servidor para ejecutarse en una máquina independiente (real o virtual) con Debian Jessie, como de controlies-client para funcionar con equipos clientes con Ubuntu 18 y Ubuntu 22 conjuntamente con el nuevo servidor.
 
-**Aviso**: aunque han sido probados dentro de mis posibilidades no es descartable que todavía tengan fallos o que, dada la casuística de los distintos servidores ldap que tenemos, haya cosas que no están contempladas. Se recomienda antes de instalar el paquete controlies servidor hacer backup de:
+**Aviso**: aunque han sido probados en distintas situaciones no es descartable que todavía tengan fallos o que, dada la casuística de los distintos servidores ldap que tenemos, haya cosas que no están contempladas. Se recomienda antes de instalar el paquete controlies servidor hacer backup de:
 
 - La BBDD ldap: script de Esteban Navas para [hacer backup](https://github.com/algodelinux/backup-ldap) y [restaurar](https://github.com/algodelinux/restore-ldap).
 - La BBDD SQLite de controlies: ficheros contenidos en la ruta /var/web2py/applications/controlies/databases del servidor.
