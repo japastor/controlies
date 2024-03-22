@@ -11,7 +11,7 @@ Paquetes Debian para actualización de controlies-servidor y de controlies-clien
 
 **Paquetes**:
 
-- **controlies_0.8.0-2_all.deb**: Paquete para instalar en el servidor (Debian Jessie). Front-end web de gestión para ldap, el seguimiento de los clientes de la red y la importación de usuarios desde Rayuela.
+- **controlies_0.8.0-X_all.deb**: Paquete para instalar en el servidor (Debian Jessie). Front-end web de gestión para ldap, el seguimiento de los clientes de la red y la importación de usuarios desde Rayuela.
 - **controlies-client_0.7.X_all.deb**: Paquete controlies para instalar en clientes con Xubuntu 18.
 - **controlies-client_0.8.X_all.deb**: Paquete controlies para instalar en clientes con Xubuntu 22.
     - **pkpgcounter_3.60_all.deb**: Paquete pkpgcounter para instalar en Xubuntu 22 y Debian 11 Bullseye, ya que el antiguo paquete pkpgcounter ha dejado de funcionar y ya no lo mantiene nadie en los repositorios.
